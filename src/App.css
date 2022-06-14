@@ -6,6 +6,7 @@ main > *:where(:not(:first-child)) {
   border-top: 1px solid var(--gray);
   overflow: hidden;
 }
+
 .menu {
   display: none;
 }
@@ -133,6 +134,10 @@ tr > *:nth-child(2) {
 }
 
 @media (max-width: 1046px) {
+  .hide {
+    display: none;
+  }
+
   .payment {
     justify-content: center;
     text-align: center;
