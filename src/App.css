@@ -6,11 +6,9 @@ main > *:where(:not(:first-child)) {
   border-top: 1px solid var(--gray);
   overflow: hidden;
 }
-
 .menu {
   display: none;
 }
-
 header {
   margin-inline: -4em;
 }

@@ -11,10 +11,10 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <main className="container">
-      <div className="menu pointer" onClick={() => setIsOpen(!isOpen)}>
-        <img src={menu} alt="menu" />
-      </div>
       <header>
+        <div className="menu pointer" onClick={() => setIsOpen(!isOpen)}>
+          <img src={menu} alt="menu" />
+        </div>
         <nav className={`${isOpen ? "show" : "hide"}`}>
           <ul className="flex nav text-gray fs-400">
             <li className="pointer">Trips</li>
